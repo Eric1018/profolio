@@ -4,7 +4,7 @@ import { motion } from "motion/react"
 
 const Header = () => {
   return (
-    <div className="w-11/12 max-w-5xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-6 px-8 scale-[80%] sm:scale-[70%] md:scale-[90%]">
+    <div className="w-11/12 max-w-5xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-6 px-8 scale-[75%] sm:scale-[70%] md:scale-[90%]">
       {/* 在手機模式下隱藏 bighead 圖片 */}
       <motion.div
         initial={{ scale: 0 }}
