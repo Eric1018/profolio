@@ -13,7 +13,8 @@
 }
 
 html {
-  font-size: 16px; /* 預設字體大小 */
+  transform: scale(0.9);  /* 設定縮放比例為 90% */
+  transform-origin: top left;  /* 設定縮放的原點為左上角 */
 }
 
 /* @media (prefers-color-scheme: dark) {

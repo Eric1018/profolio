@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className="scroll-smooth dark">
       <head>
         {/* 設定 viewport */}
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=0.9" />
       </head>
       <body
         className={`${outfit.className} ${ovo.className} antialiased leading-8 overflow-x-hidden dark:bg-darkTheme dark:text-white` }
