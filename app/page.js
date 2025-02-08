@@ -36,15 +36,15 @@ export default function Home() {
 
 
   return (
-    <div
-      style={{
-        backgroundColor: "#F5F5F5",
-        minHeight: "100vh",
-      }}
-    >
+    <div>
+      <head>
+        {/* 設定 viewport，讓整個頁面縮放到 90% */}
+        <meta name="viewport" content="width=device-width, initial-scale=0.9" />
+      </head>
       <div
         style={{
-          transform: "scale(0.9)", // 縮小 90%
+          backgroundColor: "#F5F5F5",
+          minHeight: "100vh",
         }}
       >
         <Navbar />
@@ -57,4 +57,6 @@ export default function Home() {
       </div>
     </div>
   );
+  
+  
 }
