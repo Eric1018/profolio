@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono, Outfit, Ovo } from "next/font/google";
 import "./globals.css";
+import Head from 'next/head';
 
 const outfit = Outfit({
   subsets: ["latin"],weight:["400","500","600","700"]
@@ -21,14 +22,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="scroll-smooth dark">
+    <html lang="en">
       <head>
-        {/* 設定 viewport */}
-        <meta name="viewport" content="width=device-width, initial-scale=0.9" />
+        <Head>
+          {/* 設定 viewport，讓頁面縮放至 90% */}
+          <meta name="viewport" content="width=device-width, initial-scale=0.9" />
+        </Head>
       </head>
-      <body
-        className={`${outfit.className} ${ovo.className} antialiased leading-8 overflow-x-hidden dark:bg-darkTheme dark:text-white` }
-      >
+      <body className="antialiased leading-8 overflow-x-hidden dark:bg-darkTheme dark:text-white">
         {children}
       </body>
     </html>

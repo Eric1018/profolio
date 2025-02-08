@@ -37,10 +37,6 @@ export default function Home() {
 
   return (
     <div>
-      <head>
-        {/* 設定 viewport，讓整個頁面縮放到 90% */}
-        <meta name="viewport" content="width=device-width, initial-scale=0.9" />
-      </head>
       <div
         style={{
           backgroundColor: "#F5F5F5",
