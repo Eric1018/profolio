@@ -45,7 +45,6 @@ export default function Home() {
       <div
         style={{
           transform: "scale(0.9)", // 縮小 90%
-          transformOrigin: "center", // 從元素的中心縮放
         }}
       >
         <Navbar />
