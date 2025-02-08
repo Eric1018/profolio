@@ -104,6 +104,7 @@ const Navbar = () => {
             <li><a className = 'font-Ovo'href='#services'>Work Experience</a></li>
             {/* <li><a className = 'font-Ovo'href='#home'>Work</a></li> */}
             <li><a className = 'font-Ovo'href='#contact'>Contact Me</a></li>
+            <li><a className='font-Ovo' href='/contact'>Bulletin Board</a></li>
         </ul>
 
       </nav>
