@@ -36,7 +36,14 @@ export default function Home() {
 
 
   return (
-    <div style={{ backgroundColor: "#F5F5F5", minHeight: "100vh" }}>
+    <div
+    style={{
+      backgroundColor: "#F5F5F5",
+      minHeight: "100vh",
+      transform: "scale(0.9)", // 設置縮放為 90%
+      transformOrigin: "top left", // 確保從左上角開始縮放
+    }}
+    >
       <Navbar />
       <Header />
       <About />
