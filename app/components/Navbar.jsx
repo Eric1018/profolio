@@ -33,13 +33,15 @@ const Navbar = () => {
   return (
     <>
     <div className="fixed top-0 right-0 w-full h-[80px] -z-0 dark:hidden">
-    <Image 
-        src="/blackground.png" 
-        alt="background" 
-        layout="fill" 
-        objectFit="cover" 
-        className="opacity-15"
-    />
+    <div className="relative w-full h-full hidden sm:block">  {/* 在手機模式下隱藏，桌面模式顯示 */}
+        <Image 
+            src="/blackground.png" 
+            alt="background" 
+            layout="fill" 
+            objectFit="cover" 
+            className="opacity-15"
+        />
+        </div>
 </div>
 
 <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 

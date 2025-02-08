@@ -46,7 +46,7 @@ const Contact = () => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
       id='contact'
-      className='w-full px-[12%] py-10 scroll-mt-20 bg-no-repeat bg-center bg-[length:90%_auto] dark:bg-none'
+      className='w-full px-[12%] py-10 scroll-mt-20 bg-no-repeat bg-center bg-[length:90%_auto] dark:bg-none transform scale-90'
     >
       <motion.h4 className='text-center mb-2 text-lg font-Ovo'>Connect With Me</motion.h4>
       <motion.h2 className='text-center text-5xl font-Ovo'>Get In Touch</motion.h2>

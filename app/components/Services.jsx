@@ -10,7 +10,7 @@ const Services = () => {
     initial={{opacity:0}}
     whileInView={{opacity:1}}
     transition={{duration:1}}
-    id='services'className='w-full px-[12%] py-10 scroll-mt-20'>
+    id='services'className='w-full px-[12%] py-10 scroll-mt-20 transform scale-90'>
       <h3 className='text-center mb-2 text-lg font-Ovo'>About my</h3>
       {/* <br/> */}
       <h2 className='text-center text-5xl font-Ovo'>Work Experience</h2>
