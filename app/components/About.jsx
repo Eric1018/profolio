@@ -5,7 +5,7 @@ import { infoList, toolsData } from '@/public/asset'
 
 const About = ({isDarkMode}) => {
   return (
-    <motion.div id='about'className='w-full px-[12%] py-10 scroll-mt-20 transform scale-90 sm:scale-80'
+    <motion.div id='about'className='w-full px-[12%] py-10 scroll-mt-20 transform scale-[80%] sm:scale-[70%] md:scale-[90%]'
     initial={{opacity:0}}
     whileInView={{opacity:1}}
     transition={{duration:1}}
