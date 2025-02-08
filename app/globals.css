@@ -12,6 +12,10 @@
   --foreground: #171717;
 }
 
+body {
+  width: 90%; /* 讓 body 縮小 10% */
+  margin: 0 auto; /* 中心對齊 */
+}
 
 
 /* @media (prefers-color-scheme: dark) {
