@@ -1,9 +1,9 @@
 'use client';
 
-import { useEffect, useState } from "react";
 import { createClient } from "@supabase/supabase-js";
 import { formatDistanceToNow } from "date-fns";
 import { useRouter } from 'next/navigation';
+import { useEffect, useState } from "react";
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,

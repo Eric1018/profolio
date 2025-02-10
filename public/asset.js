@@ -26,7 +26,7 @@ export const serviceData = [
         icon:'/shopee.png',
         width:205,
         height:205,
-        title:"Data-Engineer Intern",
+        title:"SPX-BI Data-Engineer Intern",
         description:'Designed data pipeline,  responsible for end-to-end development and maintenance with Python, SQL...',
         link:"/shopee"
     },
@@ -50,7 +50,7 @@ export const serviceData = [
         icon:'/nccu.png',
         width:138,
         height:138,
-        title:"TA / DS for Business",
+        title:"Teaching Assistant / Data Science for Business",
         description:'Assisted in teaching courses covering Machine Learning Algorithms, Pandas, Numpy, Seaborn and...',
         link:"/nccu"
     },
