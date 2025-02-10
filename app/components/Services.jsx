@@ -1,6 +1,5 @@
-import React from 'react'
-import { motion } from "motion/react"
 import { serviceData } from '@/public/asset'
+import { motion } from "motion/react"
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -29,7 +28,7 @@ const Services = () => {
           <h3 className='text-lg my-4 text-gray-700 font-bold'>{title}</h3>
           <p className='text-sm text-gray-600 leading-5'>{description}</p>
           <br/>
-          <p className="flex items-center gap-2 text-sm mt-5">Read More<Image src="/arrow-right.png" alt='' width={10}height={10} className='w-3'/></p>
+          <p className="flex items-center gap-2 text-sm mb-8">Read More<Image src="/arrow-right.png" alt='' width={10}height={10} className='w-3'/></p>
         </Link>
       ))}
     </div>

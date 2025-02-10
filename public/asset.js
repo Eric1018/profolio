@@ -50,7 +50,7 @@ export const serviceData = [
         icon:'/nccu.png',
         width:138,
         height:138,
-        title:"Teaching Assistant / Data Science for Business",
+        title:"Teaching Assistant / DS for Business",
         description:'Assisted in teaching courses covering Machine Learning Algorithms, Pandas, Numpy, Seaborn and...',
         link:"/nccu"
     },
