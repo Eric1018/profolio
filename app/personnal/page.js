@@ -57,10 +57,12 @@ export default function PersonnalPage() {
                         <a href="https://github.com/Eric1018/test_0215" target="_blank" className="text-blue-500 underline">
                             Frontend
                         </a>
+                        <br/>
                         <a href="https://github.com/Eric1018/side_project_backend" target="_blank" className="text-blue-500 underline">
                             Backend
                         </a>
                     </p>
+                    <br/>
                     <h3 className="text-lg font-semibold">Live Demo(Please use a computer for the best experience)</h3>
                     <p>
                         <a href="https://test-0215-ruddy.vercel.app" target="_blank" className="text-blue-500 underline">
