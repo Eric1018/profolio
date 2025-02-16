@@ -24,35 +24,43 @@ export const workData = [
 export const serviceData = [
     {
         icon:'/shopee.png',
-        width:205,
-        height:205,
+        width:255,
+        height:255,
         title:"SPX-BI Data-Engineer Intern",
         description:'Designed data pipeline,  responsible for end-to-end development and maintenance with Python, SQL...',
         link:"/shopee"
     },
     {
         icon:'/Hotai.png',
-        width:121,
-        height:121,
+        width:98,
+        height:98,
         title:"iRent (via DAC) DA Project",
         description:'Conducted feature engineering and trained XGBoost models, utilizing SHAP and PDP for...',
         link:"/hotai"
     },
     {
         icon:'/uber-icon.png',
-        width:136,
-        height:136,
+        width:109,
+        height:109,
         title:"Customer Operation Intern",
         description:'Classified customer groups based on behavior and identified merchants with SQL...',
         link:"/uber"
     },
     {
         icon:'/nccu.png',
-        width:138,
-        height:138,
+        width:111,
+        height:111,
         title:"Teaching Assistant / DS for Business",
         description:'Assisted in teaching courses covering Machine Learning Algorithms, Pandas, Numpy, Seaborn and...',
         link:"/nccu"
+    },
+    {
+        icon:'/kpop.png',
+        width:108,
+        height:108,
+        title:"Person / Full-Stack Web Application",
+        description:'A full-stack web application designed for management system, built with React (Next.js) and Node.js (Express), styled with Tailwind CSS....',
+        link:"/personnal"
     },
 ]
 

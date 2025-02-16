@@ -13,18 +13,18 @@ const Services = () => {
     className='w-full px-[12%] py-10 scroll-mt-20 transform scale-[80%] sm:scale-[70%] md:scale-[90%]'>
     
     <h3 className='text-center mb-2 text-lg font-Ovo'>About my</h3>
-    <h2 className='text-center text-5xl font-Ovo'>Work Experience</h2>
+    <h2 className='text-center text-5xl font-Ovo'>Work & Personnal Experience</h2>
 
     <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
         <br />
     </p>
 
-    <div className='grid grid-cols-1 md:grid-cols-4 gap-6 my-10'>
+    <div className='grid grid-cols-1 md:grid-cols-5 gap-6 my-10'>
         {serviceData.map(({ icon, width, height, title, description, link }, index) => (
             <Link 
                 key={index} 
                 href={link} 
-                className='border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 flex flex-col h-full'>
+                className='border border-gray-400 rounded-lg px-6 py-5 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 flex flex-col h-full'>
                 
                 {/* 圖示 */}
                 <div className="flex flex-col items-center text-center flex-grow">
@@ -34,7 +34,7 @@ const Services = () => {
                 </div>
 
                 {/* Read More 固定到底部 */}
-                <p className="flex items-center gap-2 text-sm mt-12 pb-0.5 justify-center">
+                <p className="flex items-center gap-2 text-sm mt-6 pb-0.5 justify-center">
                     Read More
                     <Image src="/arrow-right.png" alt='' width={10} height={10} className='w-3'/>
                 </p>
