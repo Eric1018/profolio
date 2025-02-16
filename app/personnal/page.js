@@ -45,16 +45,25 @@ export default function PersonnalPage() {
                     <li><strong>Tech Stack:</strong> React (Next.js), Node.js (Express), Tailwind CSS, External Database</li>
                     <li><strong>Scalable Backend:</strong> Designed a structured RESTful API for seamless frontend-backend interactions</li>
                     <li><strong>Authentication & Authorization:</strong> Integrated secure login system to manage user access</li>
-                    <li><strong>Performance Optimization:</strong> Implemented lazy loading and server-side rendering (SSR) to enhance speed</li>
-                    <li><strong>State Management & API Handling:</strong> Efficiently managed API calls and state using Next.js API routes</li>
+                    {/* <li><strong>Performance Optimization:</strong> Implemented lazy loading and server-side rendering (SSR) to enhance speed</li> */}
+                    {/* <li><strong>State Management & API Handling:</strong> Efficiently managed API calls and state using Next.js API routes</li> */}
                     {/* <li><strong>Responsive Design:</strong> Built UI with Tailwind CSS</li> */}
                 </ul>
 
                 {/* Website Link */}
                 <div className="mt-6">
+                    <h3 className="text-lg font-semibold">My Code</h3>
+                    <p>
+                        <a href="https://github.com/Eric1018/test_0215" target="_blank" className="text-blue-500 underline">
+                            Frontend
+                        </a>
+                        <a href="https://github.com/Eric1018/side_project_backend" target="_blank" className="text-blue-500 underline">
+                            Backend
+                        </a>
+                    </p>
                     <h3 className="text-lg font-semibold">Live Demo(Please use a computer for the best experience)</h3>
                     <p>
-                        <a href="https://test-0215-ruddy.vercel.app/" target="_blank" className="text-blue-500 underline">
+                        <a href="https://test-0215-ruddy.vercel.app" target="_blank" className="text-blue-500 underline">
                             Visit Website
                         </a>
                     </p>
