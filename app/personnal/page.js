@@ -52,7 +52,7 @@ export default function PersonnalPage() {
 
                 {/* Website Link */}
                 <div className="mt-6">
-                    <h3 className="text-lg font-semibold">Live Demo</h3>
+                    <h3 className="text-lg font-semibold">Live Demo(Please use a computer for the best experience)</h3>
                     <p>
                         <a href="https://test-0215-ruddy.vercel.app/" target="_blank" className="text-blue-500 underline">
                             Visit Website
