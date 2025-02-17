@@ -63,7 +63,7 @@ const Header = () => {
           transition={{ duration: 0.6 }}
           whileHover={{ scale: 1.1, boxShadow: "0px 5px 15px rgba(255,255,255,0.3)" }}  
           whileTap={{ scale: 0.95 }}
-          href="/Derrick Hsu Resume.pdf" 
+          href="/Derrick_Hsu_Resume.pdf" 
           download 
           className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black"
         >

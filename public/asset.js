@@ -59,7 +59,7 @@ export const serviceData = [
         width:108,
         height:108,
         title:"Person / Full-Stack Web Application",
-        description:'A full-stack web application designed for management system, built with React (Next.js) and Node.js (Express), styled with Tailwind CSS....',
+        description:'A full-stack web application designed for management system, built with React (Next.js) and Node.js....',
         link:"/personnal"
     },
 ]
