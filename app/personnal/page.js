@@ -42,7 +42,7 @@ export default function PersonnalPage() {
             <div className="w-full sm:w-[45%] text-lg text-gray-700 leading-relaxed mt-6 sm:mt-0 sm:pl-8">
                 <h2 className="text-xl font-bold mt-6">Full-Stack Web Application Development</h2>
                 <ul className="list-disc list-inside space-y-3 mt-4">
-                    <li><strong>Tech Stack:</strong> React (Next.js), Node.js (Express), Tailwind CSS, External Database</li>
+                    <li><strong>Tech Stack:</strong> React (Next.js), Node.js (Express), Tailwind CSS, PostgreSQL</li>
                     <li><strong>Scalable Backend:</strong> Designed a structured RESTful API for seamless frontend-backend interactions</li>
                     <li><strong>Authentication & Authorization:</strong> Integrated secure login system to manage user access</li>
                     {/* <li><strong>Performance Optimization:</strong> Implemented lazy loading and server-side rendering (SSR) to enhance speed</li> */}
